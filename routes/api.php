@@ -28,4 +28,5 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::resource('/datapusats', \App\Http\Controllers\Api\DataPusatController::class);
     Route::resource('/barangmasuks', \App\Http\Controllers\Api\BarangMasuksController::class);
     Route::resource('/barangkeluars', \App\Http\Controllers\Api\BarangKeluarsController::class);
+    Route::resource('/users', \App\Http\Controllers\Api\UsersController::class);
 });
